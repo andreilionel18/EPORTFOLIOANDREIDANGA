@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE Lesson 1</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url('TLEbg.jpg') center 35% 
+/ cover no-repeat fixed;
+}
+.textbox {
+  text-align: justify;
+}
+</style>
+</head>
+<body>
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html" class="active">TLE</a></li>
+<li><a href="EVENTS.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+<div class="textbox">
+<h2>Lesson 1: Cascading Style Sheets</h2>
+<ul>
+<br>
+<li><h3> What is Cascading Style Sheets</h3> </li>
+<p>
+Cascading Style Sheets<br><br>
+it is how elements are displayed in HTML<br><br>
+It saves a lot of work <br><br>
+External stylesheets are stored in CSS<br><br>
+It is the language used to style a webpage<br><br>
+Used to define styles for your webpage<br><br>
+You need basic CSS knowledge and understanding of HTML to continue learning CSS
+<br><br><br></p>
+<li><h3>LAYERS OF A WEBPAGE</h3></li>
+<p>
+<ol>
+<li>Content (HTML)</li>
+Defines and layout the text, images, and animation, sound, video, and everything you want to put on the HTML.<br><br>
+It needs:<br>
+Text that must be readable<br>
+Titles<br>
+Images and Videos<br>
+Audios <br>
+Any content <br><br>
+<li>Presentation (CSS)</li>
+It is the design of your website and how you see it.<br><br>
+<li>Behavior (JavaScript)</li>
+It is the real time interaction between the user and webpage.<br><br><br>
+</ol>
+</p>
+<li><h3>BENEFITS TO CSS</h3><br></li>
+<p>
+Saves work and time<br><br>
+Easier to maintain<br><br>
+Makes it pleasing to the eye<br><br>
+Downloads fast<br><br>
+You can use multiple link tags for one webpage<br><br><br>
+</p>
+<li><h3> Parts to Style Sheets </h3></li><br><br>
+<p>
+Every CSS has a set of instructions called STATEMENTS<br>
+It identifies the elements in an HTML that it affects<br>
+tells the browser how to draw elements<br><br>
+Just text files, or text embedded in the head of an HTML document, that help separate content from appearance.<br><br>
+Suggests the browser how to display a page in the browser<br><br>
+A set of instructions to a Web browser on how to display various elements on a Web page is known as a style sheet.
+</p>
+</ul>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+*{margin:0;box-sizing:border-box;padding:0;font-family:Book Antiqua;font-weight:lighter;}
+body{background:url(back.jpg);background-size:cover;background-repeat:no-repeat;background-position:center 35%;position:relative;display:flex;flex-direction:column;align-items:center;}
+body::before{content:"";position:absolute;top:0;left:0;width:100%;height:150px;background:linear-gradient(rgba(0,0,0,0.6), transparent);z-index:-1;}
+.flex{display:flex;align-items:center;}
+.navbar{width:100%;height:60px;color:white;background:rgb(115,147,179);position:fixed;top:0;z-index:100;}
+nav{margin:0 30px;}
+ul{list-style:none;margin:20px;font-size:20px;}
+li{margin:0 10px;cursor:pointer;padding:8px 15px;border-radius:10px;transition:all 0.3s ease;}
+li:hover{background:rgba(255,255,255,0.2);box-shadow:0 0 15px rgba(255,255,255,0.6);transform:scale(1.05);}
+a{color:white;text-decoration:none;}
+a.active{font-weight:bold;}
+.textbox{margin-top:100px;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);color:#f5f5f5;padding:30px;width:60%;border-radius:15px;text-align:center;box-shadow:0 0 15px rgba(255,255,255,0.15);transition:all 0.3s ease;}
+.textbox:hover{box-shadow:0 0 25px rgba(255,255,255,0.6);transform:scale(1.02);}
+.textbox h2{color:#fff;text-shadow:0 0 5px rgba(0,0,0,0.5);}
+.textbox p{color:#f0f0f0;line-height:1.6;text-shadow:0 0 3px rgba(0,0,0,0.6);}
+.simplebox{margin-top:40px;background:rgba(0,0,0,0.4);color:white;padding:25px;width:60%;border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.simplebox .text{flex:2;}
+.simplebox .photo{flex:1;height:180px;width:180px;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.simplebox .photo img{width:100%;height:100%;object-fit:cover;border-radius:10px;max-width:100%;max-height:100%;}
+.reversebox{margin-top:40px;background:rgba(0,0,0,0.4);color:white;padding:25px;width:60%;border-radius:10px;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-direction:row-reverse;}
+.reversebox .text{flex:2;}
+.reversebox .photo{flex:1;height:180px;width:180px;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;}
+.reversebox .photo img{width:100%;height:100%;object-fit:cover;border-radius:10px;max-width:100%;max-height:100%;}
+.friendsbox{margin-top:40px;background:rgba(0,0,0,0.5);color:white;padding:25px;width:70%;border-radius:10px;display:grid;grid-template-columns:repeat(2,1fr);gap:15px;justify-items:center;position:relative;}
+.friendsbox::after{content:"Click Me!";position:absolute;color:white;font-size:2rem;font-weight:bold;text-shadow:0 0 8px rgba(255,255,255,0.9);top:50%;left:50%;transform:translate(-50%,-50%);pointer-events:none;}
+.friend{width:300px;height:300px;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;align-items:center;justify-content:center;transition:transform 0.3s ease,box-shadow 0.3s ease;z-index:1;}
+.friend:hover{transform:scale(1.05);box-shadow:0 0 15px rgba(255,255,255,0.6);}
+.friend a{display:block;width:100%;height:100%;}
+.friend img{width:100%;height:100%;object-fit:cover;border-radius:10px;max-width:100%;max-height:100%;}
+.lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,0.8);justify-content:center;align-items:center;z-index:999;}
+.lightbox img{max-width:90%;max-height:90%;border-radius:10px;box-shadow:0 0 20px rgba(255,255,255,0.6);}
+.lightbox:target{display:flex;position:fixed;}
+.close{position:fixed;top:80px;right:40px;font-size:40px;color:white;text-decoration:none;z-index:1000;}

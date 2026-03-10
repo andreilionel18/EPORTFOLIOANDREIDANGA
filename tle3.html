@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE Lesson</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url('TLEbg.jpg') center 35% 
+/ cover no-repeat fixed;
+}
+.internal {
+background:rgba(255,255,255,0.1);
+border-left:4px solid white;
+padding:10px;
+margin:20px 0;
+border-radius:8px;
+color:white;
+}
+.photo-row{display:flex;justify-content:space-between;width:100%;margin-top:15px;gap:20px;}
+.photo-box{flex:1;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.photo-box img{width:100%;height:auto;border-radius:10px;border:3px solid rgba(255,255,255,0.3);box-sizing:border-box;}
+.photo-box p{margin-top:10px;font-size:14px;color:#f0f0f0;text-align:justify;line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html" class="active">TLE</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+<div class="textbox">
+<h2>Lesson 3: MULTIPLE STYLE SHEETS</h2>
+<ul>
+<br>
+<li><h3>INLINE CSS SECTION</h3></li>
+<p style="color:lightblue;font-weight:bold;">
+This section is styled with inline CSS. <br><br>
+Over here, I used inline CSS to make this text light blue and bold.
+</p>
+<div class="photo-row">
+<div class="photo-box">
+<img src="inline.png">
+</div>
+</div>
+<br><br>
+<li><h3>INTERNAL CSS SECTION</h3></li>
+<p class="internal">
+This section is styled with internal CSS. <br><br>
+All images in this webpage use internal CSS. The ".photo-box" class makes all photos inside the photo-row equal, gives them a transparent white background, rounds the corners, hides overflow, stacks content vertically, centers the image, and adds inner spacing between text.
+</p>
+<div class="photo-row">
+<div class="photo-box">
+<img src="internal.png">
+</div>
+</div>
+<br><br>
+<li><h3>EXTERNAL CSS SECTION</h3></li>
+<p>
+This section is styled with external CSS from <b>style.css</b>. <br><br>
+This webpage uses external in its format. The background and the boxes are mostly from external. The entire navbar is styled with external, like how the navbar uses list, and the "li" tag are coded with css to make it have a nice glowing hover effect, and make the buttons look clean.
+</p>
+<div class="photo-row">
+<div class="photo-box">
+<img src="external.png">
+</div>
+</div>
+</ul>
+</div>
+</body>
+</html>

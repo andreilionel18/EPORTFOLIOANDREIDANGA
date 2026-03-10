@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY E-PORTFOLIO - AP</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url(APbg.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center 35%;
+background-attachment: fixed;
+}
+.textbox{margin-top:100px;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);color:#f5f5f5;padding:30px;width:60%;border-radius:15px;text-align:center;box-shadow:0 0 15px rgba(255,255,255,0.15);}
+.lesson{margin-top:40px;background:rgba(0,0,0,0.4);color:white;padding:25px;width:70%;border-radius:10px;box-shadow:0 0 15px rgba(255,255,255,0.15);transition:all 0.3s ease;display:flex;flex-direction:column;align-items:center;text-align:center;}
+.lesson:hover {
+box-shadow: 0 0 25px rgba(255,255,255,0.6);
+transform: scale(1.02);
+background: rgba(0,0,0,0.6);}
+.lesson h2{margin-bottom:15px;}
+.lesson p{text-align:justify;margin-top:10px;line-height:1.5;color:#f0f0f0;}
+.photo-row{display:flex;justify-content:space-between;width:100%;margin-top:15px;gap:20px;}
+.photo-box{flex:1;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.photo-box img{width:100%;height:auto;border-radius:10px;border:3px solid rgba(255,255,255,0.3);box-sizing:border-box;}
+.photo-box p{margin-top:10px;font-size:14px;color:#f0f0f0;text-align:justify;line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="ap.html" class="active">AP</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="textbox"><h2>Araling Panlipunan</h2><p>Here are my six AP lessons, each with essay reflections and photos.</p></div>
+
+<div class="lesson"><h2>Lesson 1 – Demand</h2><p>Tumutukoy sa dami ng produkto o serbisyo na gusto at kayang bilhin ng mga mamimili sa isang takdang presyo at partikular na panahon.</p><div class="photo-row">
+<div class="photo-box"><img src="balance.jpg"> <p>BATAS NG DEMAND – Kapag tumataas ang presyo, bumababa ang dami ng gusto at kayang bilhin at kapag bumaba ang presyo, tataas naman ang dami ng gusto at kayang bilhin.<br><br>
+CETERIS PARIBUS - Nangangahulugang ipinagpapalagay na ang presyo lamang ang salik na nakaaapekto sa pagbabago ng quantity demanded, habang ang ibang salik ay hindi nagbabago o nakakaapekto rito.<br><br><br>
+DALAWANG KONSEPTONG NAGPAPALIWANAG KUNG BAKIT MAY MAGKASALUNGAT O INVERSE NA UGNAYAN SA PAGITAN NG PRESYO AT QUANTITY DEMANDED-<br> <br>
+1. SUBSTITUTION EFFECT- ipinapahayag nito na kapag tumataas ang presyo ng isang produkto, ang mga mamimili ay hahanap ng pamalit na mas mura. Sa ganon, mababawasan ang dami ng mamimiling gustong bumili ng  produktong may mataas na presyo.<br><br>
+2. INCOME EFFECT- nagpapahayag na mas malaki ang halaga ng kinikita kapag mas mababa ang presyo. Kapag mababa ang presyo ng bilihin, mas mataas ang kakayahan ng kita ng tao na makabili ng mas maraming produkto. Kapag tumaas naman ang presyo, lumiliit ang kakayahan ng kaniyang kita na maipambili. Lumiliit ang kakayahan ng kita na makabili ng mga produkto o serbisyo kaya nababawasan ang dami ng mabibiling produkto
+<div class="photo-box"> <p>MGA SALIK NA NAKAAAPEKTO SA DEMAND-<br><br>
+KITA<br>
+Sa pagtaas ng kita ng isang tao, tumataas ang kaniyang kakayahan na bumili ng mas maraming produkto<br><br>
+PANLASA<br>
+Kapag ang isang produkto o serbisyo ay naaayon sa iyong panlasa, maaaring tumaas ang demand para dito.<br><br>
+DAMI NG MAMIMILI<br>
+“Bandwagon effect”<br>
+Dahil sa dami ng bumibili ng isang produkto, nahihikayat kang bumili. 
+Sumabay sa uso<br><br>
+INAASAHAN NG MGA MAMIMILI SA PRESYO SA HINAHARAP<br>
+Kung inaasahan ng mga mamimili na tataas ang presyong isang partikular na produkto sa mga susunod na araw o linggo, asahan na tataas ang demand nito sa kasalukuyan habang mababa pa ang presyo nito
+<br><br>
+OKASYON<br>
+Ang mga Pilipino ay nagdiriwang kahit mahal ang mga bilihin
+<br><br>
+KLIMA O PANAHON-<br>
+May mga produktong tumataas ang demand depende sa panahon, tulad ng payong sa tag-ulan at ice cream sa tag-init.<br><br>
+
+
+
+
+</p></div>
+
+</p></div>
+<div class="photo-box"><img src="DEMAND.png"> <p>MATHEMATICAL FORMULA:<br>
+DEMAND= KAGUSTUHAN + KAKAYAHAN<br><br>DEMAND FUNCTION<br>
+Isang matematikong pagpapakita o paglalahad sa ugnayan ng presyo at quantity demanded sa pamamagitan ng formula (Qd)= a-bP<br><br>
+QD= Dami ng demand<br>
+a= dami ng demand kung saan ang presyo ay 0<br>
+b= slope ng demand function<br>
+P= presyo<br>
+
+<div class="photo-box"> <p>
+PRICE ELASTICITY OF DEMAND<br><br>
+Ito ang paraan na ginagamit upang masukat ang pagtugon at kung gaano kalaki ang magiging pagtugon ng quantity demanded ng tao sa isang produkto sa tuwing may pagbabago sa presyo nito.<br><br>
+FORMULA:<br>
+<img src="FORMULA.png">
+
+
+</p></div>
+
+</p></div>
+
+
+</p></div></div></div>
+
+<div class="lesson"><h2>Lesson 2 – Supply</h2><p>Tumutukoy sa dami ng produkto o serbisyo na gustong ibenta ng mga prodyuser sa isang takdang presyo at partikular na panahon
+</p><div class="photo-row">
+<div class="photo-box"><img src="supply.png"><p>SUPPLY SCHEDULE<br>
+Talahanayan nagpapakita kung gaano karaming produkto o serbisyo ang nais gawin ng mga prodyuser<br><br>
+SUPPLY FUNCTION<br>
+Isang matematikal equation na nagpapakita sa relasyon ng dami ng supply at presyo<br>
+Qs= -a + bP<br>
+QS- dami ng suplay<br>
+A- dami ng supply kung ang presyo ay zero<br>
+B- slope<br>
+P- presyo<br><br><br>
+BATAS NG SUPPLY<br>
+Kapag tumataas ang presyo, tataas ang dami ng gusto at kayang ibenta, at kapag mababa ang presyo, bababa naman ang dami ng gusto at kayang ibenta (CETERIS PARIBUS)
+
+
+
+</p></div>
+<div class="photo-box"><img src="salik.jpg"><p>
+MGA SALIK NA NAKAAAPEKTO SA SUPLAY<br><br>
+Pagbabago sa teknolohiy<br>
+Teknolohiya ay nakatutulong sa mga prodyuser na makabuo ng mas maraming suplay<br><br>
+Pagbabago sa halaga ng mga salik produksiyon<br>
+Sa bawat pagtaas ng presyo ng alinmang salik, mangangahulugan ito ng pagtaas sa kabuuang gastos ng produksyon kaya maaaring bumaba ang suplay<br><br>
+Pagbabago sa bilang ng nagtitinda<br>
+Bandwagon effect<br>
+Kung ano ang mga nauusong produkto ay nahihikayat ang mga prodyuser na magprodyus at magtinda nito<br><br>
+Pagbabago sa presyo ng kaugnay na produkto (complementary at substitue products)<br>
+Naaapektuhan ang parehong produkto<br><br>
+Ekspektasyon sa presyo<br>
+“Kung tataas ang presyo sa hinaharap, maghohoard ang mga prodyuser ngayon”<br><br>
+Okasyon<br><br>
+Panahon o klima<br><br>
+Kalamidad<br><br>
+Dali ng pagkasira o pagkabulok ng produkto <br><br>
+Subsidy o tulong ng pamahalaan<br><br>
+
+
+
+
+</p></div></div></div>
+
+<div class="lesson"><h2>Lesson 3 – Price Elasticity</h2><p>Price elasticity measures how sensitive demand or supply is to price changes.</p><div class="photo-row">
+<div class="photo-box"><img src="demand.jpg"><p>MGA URI NG ELASTISIDAD<br><br>
+1. Elastic (>1)<br>
+   Kahulugan: Mas malaki ang naging bahagdan ng pagtugon ng QD (quantity demanded) kaysa sa bahagdan ng pagbabago sa presyo.<br>
+   Uri: Elastic<br><br>
+
+2. Inelastic (<1)
+   Kahulugan: Mas maliit ang naging bahagdan ng pagbabago ng QD kaysa sa bahagdan ng pagbabago sa presyo.
+   Uri: Inelastic<br><br>
+
+3. Unitary (=1)<br>
+   Kahulugan: Pareho ang bahagdan ng pagbabago. Tapat o pantay ang pagbabago ng presyo at quantity demanded.<br>
+   Uri: Unitary<br><br><br>
+
+4. Perfectly Elastic (∞)<br>
+   Kahulugan: Anumang pagbabago sa presyo ay magdudulot ng walang hanggan (infinite) na pagbabago sa quantity demanded.<br>
+   Uri: Perfectly Elastic<br><br>
+
+5. Perfectly Inelastic (0)<br>
+   Kahulugan: Ang quantity demanded ay hindi tumutugon sa anumang pagbabago ng presyo.<br>
+   Uri: Perfectly Inelastic
+<br><br>
+</p></div>
+<div class="photo-box"><img src="PRICE.png"><p>PRICE ELASTICITY NG SUPPLY<br>
+paraan na ginagamit upang masukat ang magiging pagtugon ng quantity supplied ng mga prodyuser sa tuwing may pagbabago sa presyo nito<br><br>
+Ang formula ng Price Elasticity of Demand (PED) ay:<br><br>
+Ed = (% Pagbabago sa Quantity Demanded) ÷ (% Pagbabago sa Presyo)<br>
+Ang ibig sabihin nito ay sinusukat ng elasticity kung gaano kalaki ang pagtugon ng mga mamimili sa pagbabago ng presyo ng isang produkto.<br><br>
+Ang % Pagbabago sa Quantity Demanded ay tumutukoy sa porsyento ng pagtaas o pagbaba ng dami ng produktong gustong bilhin ng mga mamimili.<br>
+Upang makuha ito, ibabawas ang lumang quantity demanded sa bagong quantity demanded, hahatiin sa lumang quantity demanded, at imumultiply sa 100.<br><br>
+Ang % Pagbabago sa Presyo naman ay tumutukoy sa porsyento ng pagtaas o pagbaba ng presyo ng produkto.<br>
+Makukuha ito sa pamamagitan ng pagbawas ng lumang presyo sa bagong presyo, paghahati sa lumang presyo, at pag-multiply din sa 100.<br><br>
+Kapag nakuha na ang dalawang porsyento, hahatiin ang pagbabago sa quantity demanded sa pagbabago sa presyo.<br>
+Ang magiging sagot ay ang elasticity coefficient na nagsasabi kung ang produkto ay elastic, inelastic, o unitary.<br><br>
+Kung ang resulta ay higit sa 1, ang demand ay elastic (malaki ang pagtugon ng mamimili).<br>
+Kung mas mababa sa 1, ito ay inelastic (mahina ang pagtugon ng mamimili).<br>
+Kung eksaktong 1, unitary (pantay ang pagbabago ng presyo at demand).<br>
+
+</p></div></div></div>
+
+<div class="lesson"><h2>Lesson 4 – Market Equilibrium</h2><p>Isang kalagayan sa pamilihan na ang dami ng handa at kayang bilhing produkto o serbisyo ng mga konsyumer at ang handa at kayang ipagbiling produkto at serbisyo ng mga prodyuser ay pareho ayon sa presyong kanilang pinagkasunduan</p><div class="photo-row">
+
+<div class="photo-box"><img src="equal.webp"><p>EKWILIBRIYONG PRESYO-<br>
+Pinagkasunduang presyo ng konsyumer at prodyuser<br><br>
+EKWILIBRIYO DAMI-<br>
+Napagkasunduang dami ng mga produkto o serbisyo<br><br>
+</p></div>
+
+<div class="photo-box"><img src="not equal.webp"><p> DISEKWILIBRIYO-<br>
+Anumang sitwasyon o kalagayan na hindi pareho ang quantity demanded at quantity supplied sa isang takdang presyo<br><br>
+SHORTAGE<br>
+Ang dami ng demand ay mas malaki sa dami ng supply<br><br>
+
+SURPLUS<br>
+Mas marami ang quantity supplied kaysa sa quantity demanded<br><br>
+
+</p></div></div></div>
+
+<div class="lesson"><h2>Lesson 5 – Iba’t-ibang Estraktura ng Pamilihan</h2><p>Ang nagsisilbing lugar kung saan nakakamit ng isang konsyumer ang sagot sa marami niyang pangangailangan at kagustuhan sa pamamagitan ng mga produkto at serbisyong handa at kaya niyan ikonsumo.
+</p><div class="photo-row">
+<div class="photo-box"> <p> PAMILIHAN <br><br>
+3 ELEMENTO NG ISANG PAMILIHAN<br>
+Mamimili<br>
+Prodyuser/negosyante <br>
+Produkto <br>
+PAGKAKAIBA NG MGA ANYO/URI NG PAMILIHAN<br>
+Bilang at laki ng prodyuser o konsyumer<br>
+Uri ng produkto o serbisyo<br>
+Kontrol sa pagpasok sa pamilihan<br>
+Kontrol sa presyo<br>
+Paggamit ng di-presyong kompetisyon<br><br>
+
+URI NG PAMILIHAN<br>
+Lokal<br>
+Panrehiyon <br>
+Pambansa <br>
+Pandaigdigan<br><br>
+
+</p></div>
+
+<div class="photo-box"><img src="perfect.webp"><p> GANAP NA KOMPETISYON<br><br>
+1. Maraming konsyumer at prodyuser sa industriya<br>
+2. Ang mga produkto ng mga kalakalan sa industriya ay magkakatulad<br>
+3. Ang mga kalakalan sa industriya ay tinatawag na price takers<br>
+4. Malayang nakapapasok at nakalalabas ang mga kalakalan sa produksyon<br>
+5. Walang kontrol sa presyo<br><br>
+-GANAP NA KOMPETISYON<br>
+Isang estruktura ng pampamilihan na kung saan ang indibidwal na kalakalan ay may kontrol sa presyo ng kalakalan
+
+</p></div>
+<div class="photo-box"><img src="not.jpg"> <p>DI-GANAP NA KOMPETISYON- <br><br>
+MONOPOLYO<br>
+Iisa ang prodyuser<br>
+Ang produkto ay walang malapit na kapalit<br>
+Ang monopolista price maker ng produkto<br>
+Napakahirap ang pagpasok ng mga bagong prodyuser sa ganitong pamilihan<br>
+Ang pag-anunsyo sa produk to ay maaaring gamitin o hindi<br><br>
+
+OLIGOPOLY<br>
+Kakaunti lamang ang mga prodyuser sa industriya<br>
+Ang mga produkto ay maaaring magkakatulad o magkakaiba<br>
+Malaki ang kontrol ng mga kalakalan pagdating sa presyo<br>
+Mahirap ang papasok ng mga bagong prodyuser sa ganitong pamilihan<br>
+Gumagastos ng malaki ang mga kalakalan sa pag-aanunsyo, pananaliksik,& pag-unlad
+<br><br>
+MONOPOLISTIC COMPETITION<br>
+May katamtamang dami ng mga prodyuser at konsyumer<br>
+Ang mga industriya ay agresibong nakikipagkompetensya sa isa’t isa<br>
+Mayroong malawakang pag-aanunsyo<br>
+May kaunting control sa presyo dahilan sa pagkakaiba-iba ng produkto<br>
+Madali ang pagpasok ng mga bagong prodyuser kung ikukumpara sa monopoly at oligopoly.<br><br>
+
+MONOPSONY<br>
+Mayroon lamang iisang konsyumer ngunit maraming prodyuser ng produkto at serbisyo<br>
+May kapangyarihan ang konsyumer na maimpluwensiyahan ang presyo sa pamilihan
+
+</p></div></div></div>
+
+<div class="lesson"><h2>Lesson 6 – Bahaging Ginagampanan ng Pamahalaan sa Regulasyon ng mga Pamilihan</h2><p>Ito ay isang mahalagang institusyon sa ating bansa, alinsunod sa itinadhana ng Artikulo II Seksyon 4 ng 1987 konstitusyon ng Pilipinas. Pangunahing tungkulin ng pamahalaan na paglingkuran at pangalagaan ang sambayanan. </p><div class="photo-row">
+<div class="photo-box"><img src="control.jpg"><p>ANG PAGKONTROL SA PRESYO NG PAMAHALAAN<br><br>
+
+PRICE CONTROL<br>
+Pagtatadhana ng pamahalaan ng pinakamababa at pinakamataas na presyong maaaring itakda sa mga produkto at serbisyo<br><br>
+
+REPUBLIC ACT 7581<br>
+Price Control Act<br>
+Layunin na maisagawa ng pamahalaan ang pagkontrol sa presyo ng mga bilihin<br><br>
+
+</p></div>
+<div class="photo-box"><img src="price.jpg"><p>ATIONAL PRICE COORDINATION COUNCIL<br>
+May layunin na mabantayan ang presyo ng mga produkto pagkatapos magpalabas ng price ceiling ang mga pamahalaan<br><br>
+
+PRICE CEILING<br>
+Ang pinakamataas na presyong tinakda ng pamahalaan upang <br>
+ipagbili ang mga produkto<br>
+Isinasagawa ng pamahalaan upang tulungan at bigyang proteksyon ang mga mamimili laban sa mga abusado at mapagsamantalang mga negosyante<br>
+Itinatakda ito na mas mababa sa equilibrium price na umiral sa pamilihan<br><br>
+
+PRICE SUPPORT<br>
+Isinasagawa ng pamahalaan upang tulungan at bigyang proteksyon ang mga prodyuser upang mabayaran ang mga gastos ng produksyon<br><br>
+
+FLOOR PRICE<br>
+Pinakamababa na presyong tinakda ng pamahalaan upang ipagbili ang mga produkto<br>
+Itinatakda ito na mas mataas sa equilibrium price na umiral sa pamilihan
+.</p></div></div></div>
+
+<div class="lesson"><h2>REFLECTION</h2>
+<div class="photo-row">
+<div class="photo-box">
+<p style="font-size: 20px; line-height: 1.8;">
+Sa aming mga aralin sa Ekonomiks, natutunan ko kung paano gumagalaw ang ekonomiya ng ating bansa. Naiintindihan ko na ang demand, supply, at presyo ay mahalaga sa pamumuhay ng tao. Natutunan ko rin ang kahalagahan ng pagtitipid at tamang paggamit ng mga yaman. Ang mga araling ito ay nagturo sa akin kung paano maging responsable at makatulong sa pag-unlad ng bansa.
+</p>
+</div>
+</div>
+</div></body>
+</html>

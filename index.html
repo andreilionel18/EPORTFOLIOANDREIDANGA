@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY E PORTFOLIO</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<style>
+.growshrink{
+position:absolute;
+top:140px;
+right:60px;
+color:yellow;
+font-weight:bold;
+font-size:20px;
+font-family:'Press Start 2P',monospace;
+transform:rotate(10deg);
+text-shadow:0 0 10px yellow;
+animation:bigsmall 4s ease-in-out infinite;
+pointer-events:none;
+z-index:999;}
+@keyframes bigsmall{
+0%{transform:rotate(10deg) scale(1);}
+50%{transform:rotate(10deg) scale(1.2);}
+100%{transform:rotate(10deg) scale(1);}}
+.funbox{}
+.seewhatsnewbtn{
+position:fixed;
+top:90px;
+left:20px;
+padding:20px 30px;
+font-size:24px;
+text-decoration:none;
+z-index:999;
+display:block;
+width:auto;
+animation:spinthebutton 5s linear infinite;}
+@keyframes spinthebutton{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}}
+</style>
+</head>
+<body>
+
+<a href="#newimg" class="textbox seewhatsnewbtn">SEE WHATS NEW</a>
+
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html" class="active">HOME</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="growshrink">NOW WITH 4TH QUARTER INCLUDED!</div>
+
+<div class="textbox funbox">
+<h2>Welcome to My E-Portfolio</h2>
+<p>This is where I showcase my projects, reflections, and achievements!</p>
+</div>
+
+<div class="simplebox funbox">
+<div class="text">
+<h2>Who am I?</h2>
+<p>My name is Andrei Lionel L. Dangca, born on January 18, 2011, in Singapore. My favorite things to do are play games and drumming. My family is very kind and loving, and we spend a lot of time together.</p>
+</div>
+<div class="photo">
+<img src="family.png">
+</div>
+</div>
+
+<div class="reversebox funbox">
+<div class="text">
+<h1>My Friends</h1>
+<p>These are the people who make school fun and memorable. We help each other, share laughter, and grow together every day. Having them around makes every experience more exciting and special.</p>
+</div>
+<div class="photo">
+<img src="friends.png">
+</div>
+</div>
+
+<div class="friendsbox buddybox">
+<div class="friend"><a href="#img1"><img src="friend1.jpg"></a></div>
+<div class="friend"><a href="#img2"><img src="friend2.jpg"></a></div>
+<div class="friend"><a href="#img3"><img src="friend3.jpg"></a></div>
+<div class="friend"><a href="#img4"><img src="friend4.jpg"></a></div>
+</div>
+
+<div id="img1" class="lightbox photobox1"><a href="#" class="close">×</a><img src="friend1.jpg"></div>
+<div id="img2" class="lightbox photobox2"><a href="#" class="close">×</a><img src="friend2.jpg"></div>
+<div id="img3" class="lightbox photobox3"><a href="#" class="close">×</a><img src="friend3.jpg"></div>
+<div id="img4" class="lightbox photobox4"><a href="#" class="close">×</a><img src="friend4.jpg"></div>
+
+<div id="newimg" class="lightbox photobox5">
+<a href="#" class="close">×</a>
+<img src="whatsnew.png">
+</div>
+
+<div class="lightbox, video-box"><video controls src="fam.mp4"></video><div class="video-caption"></div></div>
+
+</body>
+</html>

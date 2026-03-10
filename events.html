@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MY E-PORTFOLIO - EVENTS</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {background: url(eventbg.jpg);background-size: cover;background-repeat: no-repeat;background-position: center 35%;background-attachment: fixed;}
+.textbox{margin-top:100px;margin-left:auto;margin-right:auto;background:rgba(0,0,0,0.5);border:1px solid rgba(255,255,255,0.3);backdrop-filter:blur(8px);color:#f5f5f5;padding:30px;width:60%;border-radius:15px;text-align:center;box-shadow:0 0 15px rgba(255,255,255,0.15);}
+.switch-buttons{margin-top:20px;text-align:center;}
+.switch-buttons button{padding:10px 20px;margin:5px;border:none;border-radius:8px;background:rgba(255,255,255,0.2);color:white;cursor:pointer;font-size:16px;}
+.switch-buttons button:hover{background:rgba(255,255,255,0.4);}
+.hidden{display:none;}
+.event{margin-top:40px;margin-left:auto;margin-right:auto;background:rgba(0,0,0,0.4);color:white;padding:25px;width:70%;border-radius:10px;box-shadow:0 0 15px rgba(255,255,255,0.15);transition:all 0.3s ease;display:flex;flex-direction:column;align-items:center;text-align:center;}
+.event:hover{box-shadow:0 0 25px rgba(255,255,255,0.6);transform:scale(1.02);}
+.event h2{margin-bottom:15px;}
+.event p{text-align:justify;margin-top:10px;line-height:1.5;color:#f0f0f0;}
+.photo-row{display:flex;justify-content:space-between;width:100%;margin-top:15px;flex-wrap:wrap;}
+.photo-box{width:48%;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:10px;margin-bottom:10px;}
+.photo-box img{width:100%;height:auto;object-fit:cover;border-radius:10px;cursor:pointer;transition:transform 0.3s ease;}
+.photo-box img:hover{transform:scale(1.05);}
+.photo-caption{margin-top:8px;font-size:14px;color:#fff;}
+.video-box{margin-top:20px;width:80%;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;}
+.video-box video{width:100%;border-radius:10px;}
+.video-caption{margin-top:8px;font-size:14px;color:#fff;}
+#lightbox{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);display:none;justify-content:center;align-items:center;z-index:9999;}
+#lightbox img{max-width:90%;max-height:80%;border-radius:10px;box-shadow:0 0 25px rgba(255,255,255,0.5);}
+#closeBtn{position:absolute;top:20px;right:30px;font-size:30px;color:white;cursor:pointer;font-weight:bold;}
+</style>
+</head>
+<body>
+
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html">TLE</a></li>
+<li><a href="events.html" class="active">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="textbox">
+<h2>School Events</h2>
+<p>Here are the school events I participated in this year, each with pictures and reflections.</p>
+<div class="switch-buttons">
+<button onclick="showSection('original')">2nd Quarter section</button>
+<button onclick="showSection('third')">3rd Quarter Section</button>
+<button onclick="showSection('blank')">4th Quarter Section</button>
+</div>
+</div>
+
+<div id="originalEvents">
+<div class="event"><h2>Buwan ng Wika</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="buwan1.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Awarding from Paham</div></div>
+<div class="photo-box"><img src="buwan2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Opening of Buwan ng Wika from Paham</div></div>
+</div>
+<div class="video-box"><video controls src="buwan.mp4"></video><div class="video-caption">Singing during Buwan ng Wika (from Ezekiel Aguilar)</div></div>
+<p>During Buwan ng Wika, I learned about our culture, and how amazing it is to be a Filipino. Our language represents how far we have come as a country. I learned to express my culture and be proud of being Filipino in my real life. I participated in the event through wearing a traditional Filipino costume every monday. If I explain this to a classmate, I would tell them about how we express our culture proudly every August.</p>
+</div>
+<div class="event"><h2>Intramurals</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="intrams1.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Mr. and Mrs Intrams</div></div>
+<div class="photo-box"><img src="intrams2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Practice in intrams</div></div>
+</div>
+<div class="video-box"><video controls src="intrams.mp4"></video><div class="video-caption">Alger playing Table Tennis(From Jade Imperial)</div></div>
+<p>Intrams is an entertaining part of school, something I look forward to personally. It teaches us proper sportsmanship, and how we can still enjoy, even if we lose. If I to teach it to a classmate, its like a sports even where anyone can participate.</p>
+</div>
+<div class="event"><h2>Science Month</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="science1.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Science Awarding</div></div>
+<div class="photo-box"><img src="science2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Sceince Opening (from Paham)</div></div>
+</div>
+<div class="video-box"><video controls src="science.mp4"></video><div class="video-caption">Science Defense of Allisons group</div></div>
+<p>Science month is a month of innovation and creativity. It teaches us to be curious and to see things that people would overlook. I did not participate in this event. If i were to teach it to a classmate, it would be a time where we can let our creativity run wild. </p>
+</div>
+<div class="event"><h2>AP Month</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="apmonth1.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">AP preperations (From Allison Pineda)</div></div>
+<div class="photo-box"><img src="apmonth2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">AP preperations (Fom Allison Pineda)</div></div>
+</div>
+<div class="video-box"><video controls src="apmonth.mp4"></video><div class="video-caption"> AP Seminar (Bela Paguigan) </div></div>
+<p>AP month is a month of culture, as well as a month of speaking. I did not participate in it. But if I were to explain it to someone, it would be a month to learn, to express, and to enjoy. It is important because we all need to learn to express ourselves properly, and to know about history and geography.</p>
+</div>
+<div class="event"><h2>Teachers' Day</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="teachers1.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Paham picture on Teachers Day</div></div>
+<div class="photo-box"><img src="teachers2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Fidelity teachers day</div></div>
+</div>
+<div class="video-box"><video controls src="GIA.mp4"></video><div class="video-caption">Teachers’ Day Video</div></div>
+<p> Teacher's Day was an extremely fun event, because Fidelity rented the entire court, so we had a lot of freedom. We learned to appreciate our teachers, and why they are so important.</p>
+</div>
+</div>
+
+<div id="thirdEvents" class="hidden">
+<div class="event"><h2>MATH MURAL</h2>
+<div class="photo-row" style="justify-content:center;">
+<div class="photo-box" style="width:80%;">
+<img src="mural.jpg" onclick="openLightbox(this.src)">
+<div class="photo-caption">9-Fidelity Math Mural!!</div>
+</div>
+</div>
+<p>This event is thought to be about the importance of creativity and cooperation, mixing both into one event. This can help me in the future if I'm working with others while also outputting my own work. I helped the artists by giving ideas and helping them with practical stuff, such as paint and drying. If I were to explain this to someone, it would be like combining the steady flow of math with the creativity of art.</p>
+</div>
+
+<div class="event"><h2>Math Idol 2</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="me.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Its me!(credits Jade Imperial)</div></div>
+<div class="photo-box"><img src="ez.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">My good friend Ezekiel Aguilar (credits Jade Imperial)</div></div>
+</div>
+<p>ski</p>
+</div>
+
+<div class="event"><h2>Booklandia 2026</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="ezk.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Once again my good friend Ezekiel! (credits Jade Imperial)</div></div>
+<div class="photo-box"><img src="ris.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Fidel presi Reese big head (credits Jade Imperial)</div></div>
+</div>
+
+<p>This event showed me that the entertainment books and their characters can bring you so much joy. I didn't get to participate, but if I were to explain this event, it's like a pagent where different characters can show their understanding of a certain character.</p>
+</div>
+</div>
+
+<div id="blankEvents" class="hidden">
+<div class="event"><h2>Miting De Avance</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="ris2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Our grade 10 level rep! Reese Cruz!</div></div>
+<div class="photo-box"><img src="guys.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Audience members</div></div>
+</div>
+<p>This event showed me the professionalism and commitment that my fellow students and batchmates are willing to put into something. I can use them as an example on how much effort and responsibility I should put into something if it's of great importance to me. If I were to explain this to someone, it would be 2 parties competing for each member for their roles through questions and interviews.</p>
+</div>
+
+<div class="event"><h2>OPM Duets</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="tam.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Tam and Bela! (credits Jade Imperial)</div></div>
+<div class="photo-box"><img src="eliz.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Eliz and Alger! (credits Jade Imperial)</div></div>
+</div>
+<p>This event showed me the power of teamwork in music and in other things. I can use this in my life by applying teamwork to situations that require me to work with others. I got to watch this event, and it was amazing, seeing how the partners interacted with each other and harmonized. I could feel it in not just my ears. If I were to explain this to someone, its a performance with 2 people, they sing in harmony, as if they were one person.</p>
+</div>
+
+<div class="event"><h2>Battle of the Bands! 3</h2>
+<div class="photo-row">
+<div class="photo-box"><img src="botb.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Me and my band after battle of the bands</div></div>
+<div class="photo-box"><img src="botb2.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">My band before performing</div></div>
+</div>
+<p>This event showed me the beauty of teamwork and perfect synchronization in music. I can apply this to be able to work with someone as if they were an extension of me, being able to be in sync with them in our shared ideas and thoughts. I was able to join this event (as you can see in the images), and it was extremely fun. It's like if you were to put a bunch of people in groups and tell them to work together and play.</p>
+</div>
+<div class="event">
+<a href="https://www.youtube.com/watch?v=Nei4ATe5M4Q" style="text-decoration:none;">
+<h2 style="font-size:80px;color:#ff2222;text-shadow:0 0 25px red,0 0 40px red,0 0 60px red;margin-bottom:30px;">NOLI ME TANGERE (click me)</h2>
+</a>
+</div>
+</div>
+
+<script>
+function openLightbox(src){document.getElementById("lightboxImg").src=src;document.getElementById("lightbox").style.display="flex";}
+function closeLightbox(){document.getElementById("lightbox").style.display="none";}
+function showSection(type){
+document.getElementById("originalEvents").classList.add("hidden");
+document.getElementById("thirdEvents").classList.add("hidden");
+document.getElementById("blankEvents").classList.add("hidden");
+if(type==="original")document.getElementById("originalEvents").classList.remove("hidden");
+else if(type==="third")document.getElementById("thirdEvents").classList.remove("hidden");
+else if(type==="blank")document.getElementById("blankEvents").classList.remove("hidden");}
+</script>
+
+<div id="lightbox"><span id="closeBtn" onclick="closeLightbox()">×</span><img id="lightboxImg"></div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE Lesson 1</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url('TLEbg.jpg') center 35% 
+/ cover no-repeat fixed;
+}
+.textbox {
+  text-align: justify;
+}
+</style>
+</head>
+<body>
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html" class="active">TLE</a></li>
+<li><a href="EVENTS.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+<div class="textbox">
+<h2>Lesson 2: Types of CSS</h2>
+<ul>
+<br>
+<li><h3>HOW CSS IS APPLIED</h3> </li>
+<p> 
+Linked method<br>
+CSS is stored in a separate file, instead of directly in the HTML page<br>
+Embedded method<br>
+CSS is stored as part of the HTML page, in the header section.<br>
+Inline method<br>
+CSS is stored directly in the style attributes of the HTML tags<br>
+<br>
+Inline style<br>
+We can define the style for a single element using the style attribute. <br>
+There are various tags that have the style attribute and that said line would be its value. 
+<br>
+Embedded style<br>
+"style type=”text/css" "/style"<br>
+placed within the head part of the HTML file<br>
+provides style to the WHOLE html file<br><br>
+
+Linked style<br>
+made outside the html file<br>
+uses the "link" element, it allows you to establish document relationships and tells the browser to find the specified style sheet<br>
+it can only be used within the "head""/head" section of the document<br>
+the style sheet file does not contain any HTML code, it contains only style rules<br><br>
+Creating an External CSS<br><br>
+Open a blank document in Notepad.<br>
+Type the style you want to define.<br>
+On the Menu Bar, click File and click Save.<br>
+Type your filename with a file extension .css and change the file type to all files. 
+</ul>
+</div>
+
+</body>
+</html>

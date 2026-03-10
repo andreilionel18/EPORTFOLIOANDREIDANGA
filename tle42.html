@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE Lesson</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url('TLEbg.jpg') center 35% / cover no-repeat fixed;}
+.photo-row{display:flex;justify-content:space-between;width:100%;}
+.photo-box{flex:1;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.photo-box img{width:100%;height:auto;border-radius:10px;border:3px solid rgba(255,255,255,0.3);box-sizing:border-box;cursor:pointer;}
+.photo-box p{margin-top:10px;font-size:14px;color:#f0f0f0;text-align:justify;line-height:1.5;}
+</style>
+</head>
+<body>
+
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html" class="active">TLE</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+
+<div class="textbox">
+<h2>Lesson: CONDITIONS, CONTROLS, LOOPS</h2>
+
+<div class="photo-row">
+<div class="photo-box"><img src="cond.png" onclick="checkCondition()"></div>
+</div>
+
+<p> they perform different actions for different decisions <br> <br>IF STATEMENT ! <br>
+It is used to check or verify a condition and execute a set of statements only if the condition is true. This should be referred to as a statement and not as a function.  <br> <br>
+NESTED IF STATEMENT !<br>
+"If statement" with another "If statement"<br>
+<br>
+IF-ELSE STATEMENT !<br>
+It has the same format as the "if statement,” the only thing is that an Else part is added to an If statement. So, if the condition satisfies the statement inside an If statement, part of the code will be executed. And the Else statement inside the Else part only will be executed.
+IF ELSE IF STATEMENT !<br>
+
+We don’t always evaluate just one condition. Sometimes more than one or multiple conditions must be evaluated. This is possible with the If-Else-If statement. 
+<br>
+<br>
+
+SWITCH STATEMENT !<br>
+
+ In the previous example, we used the If Else If statement to test multiple conditions. What if there are a lot of options? The If Else If statement can be tedious. To address this issue, JS offers an easier way to implement multiple conditions, that is through the Switch statement. <br>
+<br>
+Try clicking the image!
+
+
+</p>
+
+</div>
+
+<script>
+function checkCondition(){
+if(confirm("Do you understand the IF statement lesson?")){alert("Great! You understood the condition.");}else{alert("Review the lesson again to understand the condition.");}}
+</script>
+
+</body>
+</html>

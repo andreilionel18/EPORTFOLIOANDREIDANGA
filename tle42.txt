@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>TLE Lesson</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+background: url('TLEbg.jpg') center 35% / cover no-repeat fixed;
+}
+a:link{color:#00ffff;text-decoration:none;}
+a:visited{color:#ff66ff;}
+a:hover{color:#ffff00;text-decoration:underline;}
+a:active{color:#ff0000;}
+.photo-row{display:flex;justify-content:space-between;width:100%;}
+.photo-box{flex:1;background:rgba(255,255,255,0.2);border-radius:10px;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:10px;}
+.photo-box img{width:100%;height:auto;border-radius:10px;border:3px solid rgba(255,255,255,0.3);box-sizing:border-box;}
+.photo-box p{margin-top:10px;font-size:14px;color:#f0f0f0;text-align:justify;line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="navbar flex">
+<nav class="flex">
+<h1>E-PORTFOLIO</h1>
+<ul class="flex">
+<li><a href="index.html">HOME</a></li>
+<li><a href="tle.html" class="active">TLE</a></li>
+<li><a href="events.html">EVENTS</a></li>
+<li><a href="AP.html">AP</a></li>
+</ul>
+</nav>
+</div>
+<div class="textbox">
+<h2>Lesson: CONDITIONS, CONTROLS, LOOPS</h2>
+<div class="photo-row">
+<div class="photo-box"><img src=".png"></div>
+</div>
+<p> they perform different actions for different decisions <br> <br>IF STATEMENT ! <br>
+It is used to check or verify a condition and execute a set of statements only if the condition is true. This should be referred to as a statement and not as a function.
+
+ </p>
+</div>
+</body>
+</html>
