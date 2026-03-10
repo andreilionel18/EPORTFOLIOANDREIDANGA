@@ -115,7 +115,7 @@ body {background: url(eventbg.jpg);background-size: cover;background-repeat: no-
 
 <div class="event"><h2>Booklandia 2026</h2>
 <div class="photo-row">
-<div class="photo-box"><img src="ezk.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Once again my good friend Ezekiel! (credits Jade Imperial)</div></div>
+<div class="photo-box"><img src="Ezk.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Once again my good friend Ezekiel! (credits Jade Imperial)</div></div>
 <div class="photo-box"><img src="ris.jpg" onclick="openLightbox(this.src)"><div class="photo-caption">Fidel presi Reese big head (credits Jade Imperial)</div></div>
 </div>
 
@@ -148,9 +148,12 @@ body {background: url(eventbg.jpg);background-size: cover;background-repeat: no-
 <p>This event showed me the beauty of teamwork and perfect synchronization in music. I can apply this to be able to work with someone as if they were an extension of me, being able to be in sync with them in our shared ideas and thoughts. I was able to join this event (as you can see in the images), and it was extremely fun. It's like if you were to put a bunch of people in groups and tell them to work together and play.</p>
 </div>
 <div class="event">
-<a href="https://www.youtube.com/watch?v=Nei4ATe5M4Q" style="text-decoration:none;">
-<h2 style="font-size:80px;color:#ff2222;text-shadow:0 0 25px red,0 0 40px red,0 0 60px red;margin-bottom:30px;">NOLI ME TANGERE (click me)</h2>
-</a>
+<h2 style="font-size:80px;color:#ff2222;text-shadow:0 0 25px red,0 0 40px red,0 0 60px red;margin-bottom:30px;">NOLI ME TANGERE</h2>
+<div class="photo-row">
+<div class="photo-box" style="width:100%;">
+<video controls src="noli.mov" style="width:100%;height:auto;border-radius:10px;"></video>
+</div>
+</div>
 </div>
 </div>
 
@@ -158,14 +161,16 @@ body {background: url(eventbg.jpg);background-size: cover;background-repeat: no-
 function openLightbox(src){document.getElementById("lightboxImg").src=src;document.getElementById("lightbox").style.display="flex";}
 function closeLightbox(){document.getElementById("lightbox").style.display="none";}
 function showSection(type){
-document.getElementById("originalEvents").classList.add("hidden");
-document.getElementById("thirdEvents").classList.add("hidden");
-document.getElementById("blankEvents").classList.add("hidden");
-if(type==="original")document.getElementById("originalEvents").classList.remove("hidden");
-else if(type==="third")document.getElementById("thirdEvents").classList.remove("hidden");
-else if(type==="blank")document.getElementById("blankEvents").classList.remove("hidden");}
+  document.getElementById("originalEvents").classList.add("hidden");
+  document.getElementById("thirdEvents").classList.add("hidden");
+  document.getElementById("blankEvents").classList.add("hidden");
+  if(type==="original")document.getElementById("originalEvents").classList.remove("hidden");
+  else if(type==="third")document.getElementById("thirdEvents").classList.remove("hidden");
+  else if(type==="blank")document.getElementById("blankEvents").classList.remove("hidden");
+}
 </script>
 
 <div id="lightbox"><span id="closeBtn" onclick="closeLightbox()">×</span><img id="lightboxImg"></div>
+
 </body>
 </html>
